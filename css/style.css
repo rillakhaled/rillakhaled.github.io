@@ -85,7 +85,7 @@ li {
 }
 
 .main-nav a:hover{
-    background-color: #ff3503;
+    background-color: #1a1110;
     color: white;
 }
 
@@ -252,7 +252,7 @@ li {
     }
 
     .main-image {
-      flex: 0 1 auto;
+      flex: 1 0 auto;
     }
 
     .main-description {
