@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>RILLA KHALED</title>
+    <link>http://www.rillakhaled.com/</link>
+    <description>Recent content on RILLA KHALED</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 30 Mar 2022 10:15:10 -0400</lastBuildDate><atom:link href="http://www.rillakhaled.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>restart()</title>
+      <link>http://www.rillakhaled.com/experiments/restart/</link>
+      <pubDate>Wed, 30 Mar 2022 10:15:10 -0400</pubDate>
+      
+      <guid>http://www.rillakhaled.com/experiments/restart/</guid>
+      <description>There always needs to be a first post, right?
+This is that post.
+In writing this, I feel the eery sensation of sliding back into 1997 or so: I was one of those teenage girls with a carefully curated website, lovingly crafted from frames with borders set to 0.
+Before CSS.
+Before WordPress.
+When size 8 courier was a badass typographical choice.
+When it still felt plausible that you could, if you really worked at it, meet everyone your age in your city camped out in web-based chat forums and IRC channels.</description>
+    </item>
+    
+  </channel>
+</rss>

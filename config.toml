@@ -1,0 +1,25 @@
+baseURL = 'https://rillakhaled.github.io'
+languageCode = 'en-us'
+title = 'RILLA KHALED'
+theme = 'Leger'
+[menu]
+  [[menu.main]]
+    name = "RILLA KHALED"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+      name = "CV"
+      url = "/rkhaled_cv.pdf"
+      weight = 2
+  [[menu.main]]
+      name = "Projects"
+      url = "/projects/"
+      weight = 3
+  [[menu.main]]
+    name = "Experiments"
+    url = "/experiments/"
+    weight = 4
+  # [[menu.main]]
+  #   name = "Tags"
+  #   url = "/tags/"
+  #   weight = 5
