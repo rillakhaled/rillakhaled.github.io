@@ -26,6 +26,12 @@ body {
   padding-top: 1.5em;
 }
 
+li {
+  font-family: 'Hind', sans-serif;
+  color: #1a1110;
+  text-transform: none;
+}
+
 time {
     font-family: 'Red Hat Mono', monospace;
     text-transform: uppercase;
@@ -65,7 +71,7 @@ a:hover{
     z-index: 1;
 }
 
-li {
+.main-nav li {
     font-family: 'Red Hat Mono', monospace;
     text-transform: uppercase;
     font-size: 0.8em;
@@ -85,7 +91,7 @@ li {
 }
 
 .main-nav a:hover{
-    background-color: #ff3503;
+    background-color: #1a1110;
     color: white;
 }
 
@@ -111,9 +117,8 @@ li {
 }
 
 .main-image > img {
-    max-width: 100%;
+    width: 100%;
     height: auto;
-    /* filter:  drop-shadow(6px 6px 5px #1b1b1b); */
 }
 
 .main-description {
@@ -138,6 +143,12 @@ li {
   overflow-wrap: break-word;
   word-wrap: break-word;
   hyphens: auto;
+}
+
+#soap {
+  width: 800px;
+  max-width: 100%;
+  height: auto;
 }
 
 @media only screen and (max-width: 1350px) {
@@ -183,8 +194,8 @@ li {
         justify-content: center;
         align-items: center;
         height: 100vh; /* looks at viewport of webpage */
-        margin-left: 6em;
-        margin-right: 6em;
+        margin-left: 5em;
+        margin-right: 5em;
         position: relative;
       }
 
@@ -212,21 +223,33 @@ li {
 
 @media only screen and (max-width: 800px) {
 
+    .regular {
+      margin: auto 0;
+      font-family: 'Hind', sans-serif;
+      background-color: #fefefa;
+      color: #1a1110;
+      padding-right: 1.5em;
+      padding-left: 1.5em;
+      padding-top: 1.5em;
+    }
+
     .main-about {
         display: flex;
         flex-flow: row wrap;
         justify-content: space-around;
         align-items: center;
         position: relative;
+        margin-left: 1em;
+        margin-right: 1em;
       }
 
     .main-image {
-      flex: 0 1 200px;
+      flex: 0 1 550px;
     }
 
     .main-description {
-      margin-left: 2em;
-      flex: 2 0 300px;
+      margin-left: 1em;
+      flex: 1 0 600px;
       font-size: 1.1em;
       text-align: left;
     }
@@ -239,23 +262,52 @@ li {
     #email {
       height: 0.9em;
     }
+
+    #soap {
+      width: 600px;
+      max-width: 100%;
+      height: auto;
+    }
 }
 
 @media only screen and (max-width: 600px) {
 
-  .main-about {
+  .regular {
+    margin: auto 0;
+    font-family: 'Hind', sans-serif;
+    background-color: #fefefa;
+    color: #1a1110;
+    padding-right: 1.5em;
+    padding-left: 1.5em;
+    padding-top: 1.5em;
+  }
+
+  .main-nav li {
+      font-family: 'Red Hat Mono', monospace;
+      text-transform: uppercase;
+      font-size: 0.6em;
+      margin-top: 1em;
+      margin-left: 1.2em;
+      margin-right: 1.2em;
+      margin-bottom: 0.3em;
+  }
+
+    .main-about {
       display: flex;
       flex-flow: row wrap;
       justify-content: space-around;
       align-items: center;
       position: relative;
+      margin-left: 1em;
+      margin-right: 1em;
     }
 
     .main-image {
-      flex: 0 1 200px;
+      flex: 1 1 600px;
     }
 
     .main-description {
+      flex: 1 1 600px;
       margin-left: 0em;
       font-size: 1em;
       text-align: left;
@@ -268,5 +320,10 @@ li {
 
     #email {
       height: 0.9em;
+    }
+    #soap {
+      width: 500px;
+      max-width: 100%;
+      height: auto;
     }
 }

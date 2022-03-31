@@ -1,11 +1,9 @@
 ---
 title: "Speculative Play"
 date: 2022-03-31T10:37:02-04:00
-draft: true
+draft: false
 tags: ["speculative play", "research"]
 ---
-
-# Speculative Play
 
 What if we could make complex social and cultural questions playable? And what if we could do so through interactions with familiar digital interfaces set in alternative presents and near futures?
 
