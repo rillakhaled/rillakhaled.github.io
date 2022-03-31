@@ -1,4 +1,6 @@
 {{ define "main" }}
+
+<div class="regular">
 <h1>{{ .Title }}</h1>
 {{ range .Pages.ByPublishDate.Reverse }}
 <p>
@@ -9,4 +11,5 @@
     <!-- </a> -->
 </p>
 {{ end }}
+</div>
 {{ end }}
