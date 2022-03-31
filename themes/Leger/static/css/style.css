@@ -139,6 +139,11 @@ li {
   hyphens: auto;
 }
 
+#soap {
+  width: 800px;
+  height: auto;
+}
+
 @media only screen and (max-width: 1350px) {
 
     .main-about {
@@ -250,6 +255,11 @@ li {
     #email {
       height: 0.9em;
     }
+
+    #soap {
+      width: 600px;
+      height: auto;
+    }
 }
 
 @media only screen and (max-width: 600px) {
@@ -302,5 +312,9 @@ li {
 
     #email {
       height: 0.9em;
+    }
+    #soap {
+      width: 400px;
+      height: auto;
     }
 }
