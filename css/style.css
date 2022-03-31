@@ -182,8 +182,8 @@ li {
         justify-content: center;
         align-items: center;
         height: 100vh; /* looks at viewport of webpage */
-        margin-left: 6em;
-        margin-right: 6em;
+        margin-left: 5em;
+        margin-right: 5em;
         position: relative;
       }
 
@@ -225,7 +225,7 @@ li {
 
     .main-description {
       margin-left: 2em;
-      flex: 2 0 300px;
+      flex: 1 0 600px;
       font-size: 1.1em;
       text-align: left;
     }
@@ -265,7 +265,7 @@ li {
     }
 
     .main-description {
-      flex: 0 1 600px;
+      flex: 1 0 600px;
       margin-left: 0em;
       font-size: 1em;
       text-align: left;
