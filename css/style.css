@@ -211,6 +211,16 @@ li {
 
 @media only screen and (max-width: 800px) {
 
+    .regular {
+      margin: auto 0;
+      font-family: 'Hind', sans-serif;
+      background-color: #fefefa;
+      color: #1a1110;
+      padding-right: 1em;
+      padding-left: 1em;
+      padding-top: 1.5em;
+    }
+
     .main-about {
         display: flex;
         flex-flow: row wrap;
@@ -243,6 +253,16 @@ li {
 }
 
 @media only screen and (max-width: 600px) {
+
+  .regular {
+    margin: auto 0;
+    font-family: 'Hind', sans-serif;
+    background-color: #fefefa;
+    color: #1a1110;
+    padding-right: 1em;
+    padding-left: 1em;
+    padding-top: 1.5em;
+  }
 
   li {
       font-family: 'Red Hat Mono', monospace;
