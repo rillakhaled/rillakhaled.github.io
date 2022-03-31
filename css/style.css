@@ -141,6 +141,7 @@ li {
 
 #soap {
   width: 800px;
+  max-width: 100%;
   height: auto;
 }
 
@@ -258,6 +259,7 @@ li {
 
     #soap {
       width: 600px;
+      max-width: 100%;
       height: auto;
     }
 }
@@ -314,7 +316,8 @@ li {
       height: 0.9em;
     }
     #soap {
-      width: 400px;
+      width: 500px;
+      max-width: 100%;
       height: auto;
     }
 }
