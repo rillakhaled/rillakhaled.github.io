@@ -217,6 +217,8 @@ li {
         justify-content: space-around;
         align-items: center;
         position: relative;
+        margin-left: 1em;
+        margin-right: 1em;
       }
 
     .main-image {
@@ -258,6 +260,8 @@ li {
       justify-content: space-around;
       align-items: center;
       position: relative;
+      margin-left: 1em;
+      margin-right: 1em;
     }
 
     .main-image {
