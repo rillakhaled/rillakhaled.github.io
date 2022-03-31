@@ -1,16 +1,18 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>RILLA KHALED</title>
-  </head>
-  <body>
-    <h1>404 oops.</h1>
+<html>
+    {{- partial "head.html" . -}}
+    <body>
+        {{- partial "header.html" . -}}
+        <div class="regular">
+          <h1>404 oops.</h1>
 
-    <p>Something weird has happened.
-    </p>
-    <p>
-    <img width=600px src="/images/soap.jpg">
-    </p>
-  </body>
+          <p>Something weird has happened.
+          </p>
+          <p>
+          <img width=600px src="/images/soap.jpg">
+          </p>
+        </div>
+        {{- partial "footer.html" . -}}
+        {{- partial "script.html" . -}}
+    </body>
 </html>
