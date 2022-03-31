@@ -236,7 +236,7 @@ li {
     }
 
     .main-description {
-      margin-left: 2em;
+      margin-left: 1em;
       flex: 1 0 600px;
       font-size: 1.1em;
       text-align: left;
@@ -259,8 +259,8 @@ li {
     font-family: 'Hind', sans-serif;
     background-color: #fefefa;
     color: #1a1110;
-    padding-right: 1em;
-    padding-left: 1em;
+    padding-right: 1.5em;
+    padding-left: 1.5em;
     padding-top: 1.5em;
   }
 
