@@ -220,7 +220,7 @@ li {
       }
 
     .main-image {
-      flex: 0 1 100%;
+      flex: 0 0 100%;
     }
 
     .main-description {
