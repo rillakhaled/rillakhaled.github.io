@@ -220,7 +220,7 @@ li {
       }
 
     .main-image {
-      flex: 0 0 100%;
+      flex: 0 1 400px;
     }
 
     .main-description {
@@ -261,10 +261,11 @@ li {
     }
 
     .main-image {
-      flex: 0 0 100%;
+      flex: 0 1 550px;
     }
 
     .main-description {
+      flex: 0 1 auto;
       margin-left: 0em;
       font-size: 1em;
       text-align: left;
