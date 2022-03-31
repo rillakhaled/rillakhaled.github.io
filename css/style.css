@@ -261,7 +261,7 @@ li {
     }
 
     .main-image {
-      flex: 0 1 auto;
+      flex: 0 0 100%;
     }
 
     .main-description {
