@@ -2,7 +2,6 @@
 title: "Speculative Play"
 date: 2022-03-31T10:37:02-04:00
 draft: false
-type: notes
 tags: ["speculative play", "research"]
 ---
 
