@@ -2,6 +2,7 @@
 title: "Games as Research"
 date: 2022-03-31T16:02:46-04:00
 draft: true
+type: notes
 tags: ["game design", "design process", "documentation"]
 ---
 [Games as Research](https://www.gamesasresearch.com/) is an ongoing project I am undertaking primarily with [Pippin Barr](http://www.pippinbarr.com) about documenting, observing, reflecting on, and learning from game design processes undertaken within an academic context.

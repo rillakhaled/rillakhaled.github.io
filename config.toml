@@ -19,7 +19,3 @@ theme = 'Leger'
     name = "Notes"
     url = "/notes/"
     weight = 4
-  # [[menu.main]]
-  #   name = "Tags"
-  #   url = "/tags/"
-  #   weight = 5
