@@ -5,9 +5,10 @@
 
 {{ with .Params.tags }}
   <div class="tags">
-    tags:
+  tags:
+
   {{ range . }}
-    {{ $href := print (absURL "tags/") (urlize .) }}<a href="{{ $href }}">{{ . }}</a>
+    {{ $href := print (absURL "tags/") (urlize . ) }}<a href="{{ $href }}">{{ . }}</a>
   {{ end }}
 {{ end }}
 </div>
