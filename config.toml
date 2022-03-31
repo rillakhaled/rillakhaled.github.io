@@ -16,8 +16,8 @@ theme = 'Leger'
       url = "/projects/"
       weight = 3
   [[menu.main]]
-    name = "Experiments"
-    url = "/experiments/"
+    name = "Notes"
+    url = "/notes/"
     weight = 4
   # [[menu.main]]
   #   name = "Tags"
