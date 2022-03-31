@@ -252,7 +252,7 @@ li {
     }
 
     .main-image {
-      flex: 1 1 auto;
+      flex: 1 0 200;
     }
 
     .main-description {
