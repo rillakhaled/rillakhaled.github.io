@@ -111,9 +111,8 @@ li {
 }
 
 .main-image > img {
-    max-width: 100%;
+    width: 100%;
     height: auto;
-    /* filter:  drop-shadow(6px 6px 5px #1b1b1b); */
 }
 
 .main-description {
@@ -243,6 +242,16 @@ li {
 
 @media only screen and (max-width: 600px) {
 
+  li {
+      font-family: 'Red Hat Mono', monospace;
+      text-transform: uppercase;
+      font-size: 0.6em;
+      margin-top: 1em;
+      margin-left: 1.2em;
+      margin-right: 1.2em;
+      margin-bottom: 0.3em;
+  }
+
   .main-about {
       display: flex;
       flex-flow: row wrap;
@@ -252,7 +261,7 @@ li {
     }
 
     .main-image {
-      flex: 0 1 400px;
+      flex: 0 1 auto;
     }
 
     .main-description {
