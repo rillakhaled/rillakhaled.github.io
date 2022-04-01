@@ -83,6 +83,8 @@ a:hover{
     background-color: #FEF9EF;
     border-bottom: #FDF5E5 1px solid;
     z-index: 1;
+    width: 100%;
+    position: fixed;
 }
 
 .main-nav li {
@@ -133,6 +135,7 @@ a:hover{
 .main-image > img {
     width: 100%;
     height: auto;
+    filter: drop-shadow(0.5em 0.5em 1em #B1AA9E);
 }
 
 .main-description {
