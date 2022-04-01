@@ -65,6 +65,7 @@ a {
 a:hover{
     background-color: #fcc11c;
     color: white;
+    transition: 0.5s;
 }
 
 .main-description h1 {
@@ -109,6 +110,7 @@ a:hover{
 .main-nav a:hover{
     background-color: #005a59;
     color: white;
+    transition: 0.7s;
 }
 
 .sticky {
