@@ -41,6 +41,12 @@ time {
     font-size: 0.8em;
 }
 
+.tags {
+  font-family: 'Red Hat Mono', monospace;
+  text-transform: uppercase;
+  font-size: 0.8em;
+}
+
 .tag {
   background-color: #fcc11c;
   border-radius: 15px;
@@ -48,12 +54,6 @@ time {
   padding-bottom: 0.2em;
   padding-left: 0.7em;
   padding-right: 0.7em;
-}
-
-.tag a {
-  font-family: 'Red Hat Mono', monospace;
-  text-transform: uppercase;
-  font-size: 0.8em;
 }
 
 a {
