@@ -43,10 +43,12 @@ time {
     font-size: 0.8em;
 }
 
-.tags {
+.tag {
     font-family: 'Red Hat Mono', monospace;
     text-transform: uppercase;
     font-size: 0.8em;
+    background-color: #cb5f50;
+    border-radius: 50%;
 }
 
 a {
