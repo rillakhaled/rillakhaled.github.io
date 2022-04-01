@@ -21,7 +21,7 @@ body {
   color: #1a1110;
   padding-right: 8em;
   padding-left: 8em;
-  padding-top: 1.5em;
+  padding-top: 4em;
 }
 
 .regular img {
@@ -246,9 +246,9 @@ a:hover{
       margin: auto 0;
       font-family: 'Hind', sans-serif;
       color: #1a1110;
-      padding-right: 1.5em;
-      padding-left: 1.5em;
-      padding-top: 1.5em;
+      padding-right: 4em;
+      padding-left: 4em;
+      padding-top: 4em;
     }
 
     .main-about {
@@ -294,9 +294,9 @@ a:hover{
     margin: auto 0;
     font-family: 'Hind', sans-serif;
     color: #1a1110;
-    padding-right: 1.5em;
-    padding-left: 1.5em;
-    padding-top: 1.5em;
+    padding-right: 2em;
+    padding-left: 2em;
+    padding-top: 2em;
   }
 
   .main-nav li {
@@ -315,8 +315,8 @@ a:hover{
       justify-content: space-around;
       align-items: center;
       position: relative;
-      margin-left: 1em;
-      margin-right: 1em;
+      margin-left: 2em;
+      margin-right: 2em;
     }
 
     .main-image {
