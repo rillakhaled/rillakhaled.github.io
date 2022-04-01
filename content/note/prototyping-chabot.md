@@ -5,7 +5,9 @@ draft: false
 tags: ["GPT-3", "Speculative Play"]
 ---
 
-![Chatbot](/images/chatbot.png)
+
+<!-- {{ $image := resources.Get "/images/chatbot.png" }}
+<img src="{{ $image.RelPermalink }}" width="{{ $image.Width }}" height="{{ $image.Height }}"> -->
 
 For the last year or so, I've periodically wondered about whether there would be any benefit to be gained by conducting a CBT-ish (structured? informed?) conversation with a non-human agent. CBT is highly structured and its activities frequently serve as *therapy homework*, i.e. you can do them on your own.
 

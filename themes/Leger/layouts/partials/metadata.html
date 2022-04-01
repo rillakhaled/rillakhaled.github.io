@@ -6,8 +6,8 @@
 {{ end }}
 
 {{ with .Params.tags }}
+  <div class="tags">  
   tags:
-  <div class="tags">
   {{ range . }}
     {{ $href := print (absURL "tags/") (urlize . ) }}
       <span class="tag"><a href="{{ $href }}">{{ . }}</a></span>
