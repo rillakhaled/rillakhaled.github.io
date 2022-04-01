@@ -5,14 +5,10 @@ body {
     color: #1a1110;
 }
 
-.summary {
-    margin: auto 0;
-    font-family: 'Hind', sans-serif;
-    color: #1a1110;
-    padding-right: 3em;
-    padding-left: 3em;
-    padding-top: 1.5em;
-    font-size: 0.8em;
+figure {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .regular {
@@ -22,11 +18,6 @@ body {
   padding-right: 8em;
   padding-left: 8em;
   padding-top: 4em;
-}
-
-.regular img {
-    width: 100%;
-    height: auto;
 }
 
 li {
@@ -68,7 +59,7 @@ a:hover{
     transition: 0.5s;
 }
 
-.main-description h1 {
+h1 {
     font-family: 'Spectral', serif;
     text-align: left;
     font-size: 2em;
@@ -82,7 +73,7 @@ a:hover{
     margin: 0;
     padding: 0;
     background-color: #FEF9EF;
-    border-bottom: #FDF5E5 1px solid;
+    /* border-bottom: #FDF5E5 1px solid; */
     z-index: 1;
     width: 100%;
     position: fixed;
@@ -195,7 +186,7 @@ a:hover{
 
     }
 
-    .main-description h1 {
+    h1 {
         text-align: left;
         font-size: 1.5em;
     }
@@ -230,7 +221,7 @@ a:hover{
 
     }
 
-    .main-description h1 {
+    h1 {
         text-align: left;
         font-size: 1.5em;
     }
@@ -330,7 +321,7 @@ a:hover{
       text-align: left;
     }
 
-    .main-description h1 {
+    h1 {
         text-align: left;
         font-size: 1.4em;
     }
