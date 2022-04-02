@@ -2,6 +2,8 @@ baseURL = 'https://rillakhaled.github.io'
 languageCode = 'en-us'
 title = 'RILLA KHALED'
 theme = 'Leger'
+[markup.goldmark.renderer]
+    unsafe = true
 [menu]
   [[menu.main]]
     name = "RILLA KHALED"

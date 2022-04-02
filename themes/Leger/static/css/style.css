@@ -140,6 +140,13 @@ h1 {
     color: #1b1b1b;
 }
 
+.flex {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}
+
 .footer {
   font-size: 0.5em;
   text-align: center;
