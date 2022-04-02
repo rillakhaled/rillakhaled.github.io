@@ -2,7 +2,7 @@
 title: "restart()"
 date: 2022-03-30T10:15:10-04:00
 draft: false
-tags: ["web", "learning"]
+tags: ["css", "learning"]
 ---
 There always needs to be a first post, right?
 

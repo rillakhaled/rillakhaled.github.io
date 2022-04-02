@@ -1,8 +1,8 @@
 ---
 title: "Sliders"
 date: 2022-04-02T13:46:29-04:00
-draft: true
-tags: ['css', 'hugo', 'learning', 'development']
+draft: false
+tags: ["css", "hugo", "learning"]
 ---
 
 Today I am experimenting with:
