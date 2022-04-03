@@ -36,50 +36,58 @@
   left: 5px;
   top: 5px;
   text-align: center;
+  line-height: 90px;
   -webkit-transition: .4s;
   transition: .4s;
   border-radius: 100%;
+  color: white;
+  content: "HELLO";
 }
 
 input:checked + .slider:before {
   -webkit-transform: translateY(100px);
   -ms-transform: translateY(100px);
   transform: translateY(100px);
+  content: "BYE";
 }
 
 .slider.purple {
   background-color: #74253a;
+  content: "NO";
 }
 
 /* the color of a "purple" slider's round bit */
-.slider.purple:before {
+.slider.purple::before {
   background-color: #BE8F17;
+  content: "YES";
 }
 
 /* the color of a "purple" slider's after state */
 input:checked + .slider.purple {
   background-color: #f7db78;
+  content: "NO";
 }
 
 .slider.green {
   background-color: #7dd181;
-  content: "hey";
 }
 /* the color of a "green" slider's round bit */
-.slider.green:before {
+.slider.green::before {
   background-color: #23425a;
+  /* content: "DAY"; */
 }
 
 /* the color of a "green" slider's after state */
 input:checked + .slider.green {
   background-color: #5375cf;
+  /* content: "NIGHT"; */
 }
 
 .slider.pink {
   background-color: #ff6867;
 }
 /* the color of a "pink" slider's round bit */
-.slider.pink:before {
+.slider.pink::before {
   /* background-color: #74253a; */
   background-color: #f2b3ca;
 }
