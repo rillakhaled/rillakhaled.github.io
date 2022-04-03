@@ -41,31 +41,31 @@
   transition: .4s;
   border-radius: 100%;
   color: white;
-  content: "HELLO";
+  content: "";
 }
 
 input:checked + .slider:before {
   -webkit-transform: translateY(100px);
   -ms-transform: translateY(100px);
   transform: translateY(100px);
-  content: "BYE";
+  content: "";
 }
 
 .slider.purple {
   background-color: #74253a;
-  content: "NO";
+  content: "";
 }
 
 /* the color of a "purple" slider's round bit */
 .slider.purple::before {
   background-color: #BE8F17;
-  content: "YES";
+  content: "";
 }
 
 /* the color of a "purple" slider's after state */
 input:checked + .slider.purple {
   background-color: #f7db78;
-  content: "NO";
+  content: "";
 }
 
 .slider.green {
