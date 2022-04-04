@@ -2,12 +2,12 @@
 title: "Sliders"
 date: 2022-04-02T13:46:29-04:00
 draft: false
-tags: ["css", "hugo", "learning"]
+tags: ["css", "hugo", "learning", "experiments"]
 ---
 
 Today I am experimenting with:
 
-- CSS: redefining slider defaults, transitions, and transforms
+- CSS: overriding field input default styling, transitions, and transforms
 - injecting regular HTML into Hugo
 - size and color
 
