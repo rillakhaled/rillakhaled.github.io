@@ -139,3 +139,17 @@ input:checked + #quality  {
 input:checked + #quality:before {
   content: "GOOD";
 }
+
+@media only screen and (max-width: 800px) {
+
+  p {
+    /* border: black 1px solid; */
+    font-family: 'Hind', sans-serif;
+    font-size: 1rem;
+    margin-left: 0em;
+    margin-right: 0em;
+  }
+
+  .unpopular-opinion {
+    font-size: 0.7rem;
+  }
