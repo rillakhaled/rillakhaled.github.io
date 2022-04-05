@@ -3,6 +3,8 @@ title: "Sliders"
 date: 2022-04-02T13:46:29-04:00
 draft: false
 tags: ["css", "hugo", "learning", "experiments"]
+resources:
+  - src: sliders.css
 ---
 
 Today I am experimenting with:
