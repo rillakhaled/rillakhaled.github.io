@@ -145,11 +145,11 @@ input:checked + #quality:before {
   p {
     /* border: black 1px solid; */
     font-family: 'Hind', sans-serif;
-    font-size: 1rem;
+    font-size: 2rem;
     margin-left: 0em;
     margin-right: 0em;
   }
 
   .unpopular-opinion {
-    font-size: 0.7rem;
+    font-size: 1rem;
   }
