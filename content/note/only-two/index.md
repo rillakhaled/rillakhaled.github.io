@@ -2,7 +2,7 @@
 title: "Only Two"
 date: 2022-04-05T12:32:46-04:00
 draft: false
-tags: ["css", "hugo", "learning", "experiments"]
+tags: ["css", "hugo", "learning", "code sketch"]
 resources:
   - src: toggles.css
   - src: script.js

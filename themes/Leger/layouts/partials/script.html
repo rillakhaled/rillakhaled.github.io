@@ -1,0 +1,3 @@
+{{ with .Resources.GetMatch "*.js" }}
+<script>{{ .Content | safeJS }}</script>
+{{ end }}
