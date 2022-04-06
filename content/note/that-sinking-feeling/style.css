@@ -108,9 +108,9 @@ img {
 
   img {
     position: absolute;
-    width: 350px;
+    width: 200px;
     height: auto;
-    margin: -100px;
+    margin: -50px;
   }
 
   .arrow-up {
