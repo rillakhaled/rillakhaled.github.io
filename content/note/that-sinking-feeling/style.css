@@ -9,6 +9,8 @@ img {
   position: absolute;
   width: 700px;
   height: 357px;
+  margin: 0px;
+  padding: 0px;
   /* margin: -100px; */
   z-index: -3;
   animation-name: slidedown;
@@ -102,6 +104,7 @@ img {
   img {
     position: absolute;
     width: 200px;
+    padding: 0px;
     height: auto;
   }
 
