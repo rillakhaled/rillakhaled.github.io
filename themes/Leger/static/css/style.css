@@ -336,9 +336,8 @@ h1 {
     padding-bottom: 0.1em;
     padding-left: 0.5em;
     padding-right: 0.5em;
-    line-height: 1.5em;
+    line-height: 1em;
     font-size: 0.8em;
-    text-align: center;
   }
 
   .main-nav li {
