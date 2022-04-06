@@ -1,6 +1,6 @@
 ---
 title: "That Sinking Feeling"
-date: 2022-04-06T11:59:04-04:00
+date: 2022-04-06
 draft: false
 tags: ["css", "hugo", "learning", "code sketch"]
 resources:
