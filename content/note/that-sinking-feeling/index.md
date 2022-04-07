@@ -70,4 +70,25 @@ resources:
   <div class="arrow-up"></div>
   <div class="arrow-up"></div>
   <div class="arrow-up"></div>
+  <div class="arrow-up"></div>
+  <div class="arrow-up"></div>
+  <div class="arrow-up"></div>
+  <div class="arrow-up"></div>
+  <div class="arrow-up"></div>
+  <div class="arrow-up"></div>
+  <div class="arrow-up"></div>
+  <div class="arrow-up"></div>
+  <div class="arrow-up"></div>
+  <div class="arrow-up"></div>
+  <div class="arrow-up"></div>
+  <div class="arrow-up"></div>
+  <div class="arrow-up"></div>
+  <div class="arrow-up"></div>
+  <div class="arrow-up"></div>
+  <div class="arrow-up"></div>
+  <div class="arrow-up"></div>
+  <div class="arrow-up"></div>
+  <div class="arrow-up"></div>
+  <div class="arrow-up"></div>
+  <div class="arrow-up"></div>
 </div>
