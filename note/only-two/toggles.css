@@ -20,8 +20,8 @@ p {
   font-family: 'Red Hat Text', sans-serif;
   line-height: normal;
   font-size: 3rem;
-  margin-left: 1em;
-  margin-right: 1em;
+  margin-left: 0em;
+  margin-right: 0em;
 }
 
 .unpopular-opinion {
@@ -145,7 +145,7 @@ input:checked + #quality:before {
 
   p {
     /* border: black 1px solid; */
-    font-family: 'Hind', sans-serif;
+    font-family: 'Red Hat Text', sans-serif;
     font-size: 2rem;
     margin-left: 0em;
     margin-right: 0em;
