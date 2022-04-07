@@ -10,7 +10,7 @@ resources:
 ---
 
 <div class="container">
-  <img class="hunk" src="hunk.png">
+<img class="hunk" src="hunk.png">
   <div class="arrow-up"></div>
   <div class="arrow-up"></div>
   <div class="arrow-up"></div>
