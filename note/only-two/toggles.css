@@ -84,14 +84,14 @@ input:checked + .slider:before {
 }
 
 #speed{
-  background-color: rgba(182, 201, 216, 1);
+  background-color: rgba(255, 225, 168, 1);
 }
 
 #speed:before {
-  background-color: rgba(255, 190, 0, 0.5);
+  background-color: rgba(244, 153, 141, 0.5);
 }
 input:checked + #speed {
-  background-color: rgba(255, 92, 51, 1);
+  background-color: rgba(25, 50, 60, 1);
 }
 
 #speed:before{
@@ -103,11 +103,11 @@ input:checked + #speed:before {
 }
 
 #cost {
-  background-color: rgba(255, 64, 55, 1);
+  background-color: rgba(226, 109, 92, 1);
 }
 
 #cost:before {
-  background-color: rgba(36, 24, 99, 0.5);
+  background-color: rgba(71, 45, 48, 0.5);
 }
 input:checked + #cost {
   background-color: rgba(254, 217, 208, 1);
@@ -123,14 +123,14 @@ input:checked + #cost:before {
 }
 
 #quality {
-  background-color: rgba(127, 199, 77, 1);
+  background-color: rgba(201, 203, 163, 1);
 }
 
 #quality:before {
-  background-color: rgba(216, 199, 6, 0.5);
+  background-color: rgba(219, 157, 71, 0.5);
 }
 input:checked + #quality  {
-  background-color: rgba(216, 219, 217, 1);
+  background-color: rgba(114, 61, 70, 1);
 }
 
 #quality:before{
