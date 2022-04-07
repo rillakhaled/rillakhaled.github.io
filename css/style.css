@@ -1,13 +1,14 @@
 body {
     margin: auto 0;
-    font-family: 'Hind', sans-serif;
+    font-family: 'Red Hat Text', sans-serif;
     background-color: #FFFDFA;
     color: #1a1110;
 }
 
 .regular {
   margin: auto 0;
-  font-family: 'Hind', sans-serif;
+  font-family: 'Red Hat Text', sans-serif;
+  line-height: 1.7em;
   color: #1a1110;
   padding-right: 8em;
   padding-left: 8em;
@@ -15,7 +16,7 @@ body {
 }
 
 li {
-  font-family: 'Hind', sans-serif;
+  font-family: 'Red Hat Text', sans-serif;
   color: #1a1110;
   text-transform: none;
 }
@@ -77,6 +78,7 @@ h1 {
     font-family: 'Spectral', serif;
     text-align: left;
     font-size: 2em;
+    line-height: 1.5em;
 }
 
 /* NAV */
@@ -165,6 +167,7 @@ h1 {
 .main-description {
     flex: 1.5 0 400px;
     font-size: 1.3em;
+    line-height: 1.6em;
     text-align: left;
     margin-left: 5em;
     color: #1b1b1b;
@@ -274,7 +277,7 @@ h1 {
 
     .regular {
       margin: auto 0;
-      font-family: 'Hind', sans-serif;
+      font-family: 'Red Hat Text', sans-serif;
       color: #1a1110;
       padding-right: 4em;
       padding-left: 4em;
@@ -322,7 +325,7 @@ h1 {
 
   .regular {
     margin: auto 0;
-    font-family: 'Hind', sans-serif;
+    font-family: 'Red Hat Text', sans-serif;
     color: #1a1110;
     padding-right: 2em;
     padding-left: 2em;

@@ -17,7 +17,8 @@ body {
 
 p {
   /* border: black 1px solid; */
-  font-family: 'Hind', sans-serif;
+  font-family: 'Red Hat Text', sans-serif;
+  line-height: normal;
   font-size: 3rem;
   margin-left: 1em;
   margin-right: 1em;
