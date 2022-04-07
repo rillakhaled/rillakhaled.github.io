@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  /* background-color: #A6B07E; */
+}
+
+.container {
+  top: 0;
+  height: 100vh;
+  background-color: #DAA49A;
+  padding: 0;
+  margin: 0;
+  font-size: 4em;
+  font-family: 'Red Hat Text', sans-serif;
+  line-height: normal;
+}
+
+.container .sticky {
+  position: sticky;
+  top: 3em;
+  width: 5em;
+  text-align: right;
+  margin: 0;
+  display: block;
+}
+
+.sticky p {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 0;
+}
+
+.under {
+  border-bottom: 1px black solid;
+}
+
+.over {
+    border-top: 1px black solid;
+}
+
+.container .rest {
+  position: relative;
+  top: 1.5em;
+  left: 6em;
+  width: auto;
+  color: black;
+  /* border: 1px black solid; */
+  text-align: left;
+}
+
+.rest p {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 0;
+  /* border: 1px black solid; */
+}
