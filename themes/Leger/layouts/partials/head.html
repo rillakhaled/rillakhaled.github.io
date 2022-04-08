@@ -4,16 +4,11 @@
 
     {{ if (ne .Section "sketch") }}
       <link rel="stylesheet" type="text/css" href="/css/style.css">
-      <link rel="preconnect" href="https://fonts.googleapis.com">
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-      <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Mono:wght@400;700&family=Red+Hat+Text:wght@300;400&family=Spectral&display=swap" rel="stylesheet">
-    {{ else }}
+    {{ end }}
     <link rel="stylesheet" type="text/css" href="/css/nav.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Mono:wght@400;700&family=Red+Hat+Text:wght@300;400&family=Spectral&display=swap" rel="stylesheet">
-  {{ end }}
-
 
     {{ with .Resources.GetMatch "*.css" }}
     <style>{{ .Content | safeCSS }}</style>
