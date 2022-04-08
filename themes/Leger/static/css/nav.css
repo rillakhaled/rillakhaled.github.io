@@ -111,7 +111,7 @@ h1 {
 }
 
 .title {
-  align-self: flex-end;
+  align-self: self-end;
   margin-right: 1em;
   font-weight: bold;
 }

@@ -12,13 +12,15 @@ resources:
 Fast, cheap, good. This much is true.
 </p>
 
-<p>
+<div class="break">
+</div>
+
+<div class="switch-container">
 <label class="switch">
 <input type="checkbox" id="s" value="yes" onchange="checkStates()">
 <span class="slider" id="speed">
 </span>
 </label>
-
 <label class="switch">
 <input type="checkbox" id="c" value="yes" onchange="checkStates()">
 <span class="slider" id="cost">
@@ -29,7 +31,12 @@ Fast, cheap, good. This much is true.
 <span class="slider" id="quality">
 </span>
 </label>
-</p>
+</div>
+
+
+<div class="break">
+</div>
+
 <p>
 You can't have three, but you can have two.
 </p>

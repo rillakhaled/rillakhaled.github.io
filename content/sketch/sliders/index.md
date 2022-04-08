@@ -7,6 +7,7 @@ resources:
   - src: sliders.css
 ---
 
+<p>
 Today I am experimenting with:
 
 - CSS: overriding field input default styling, transitions, and transforms
@@ -17,6 +18,7 @@ This is **all style and no substance** looking for a substantive home.
 
 (Toggle away).
 
+</p>
 
 <div class="flex">
   <label class="switch">
