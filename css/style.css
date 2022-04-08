@@ -7,11 +7,11 @@ figure {
 }
 
 h1 {
-    font-family: 'Spectral', serif;
-    text-align: left;
-    font-size: 2em;
-    line-height: 1.5em;
-    text-transform: capitalize;
+  font-family: 'Spectral', serif;
+  text-align: left;
+  font-size: 2em;
+  line-height: 1.5em;
+  text-transform: capitalize;
 }
 
 .main-about {
@@ -42,6 +42,10 @@ h1 {
     text-align: left;
     margin-left: 5em;
     color: #1b1b1b;
+}
+
+.main description h1 {
+  text-transform: none;
 }
 
 .flex {
