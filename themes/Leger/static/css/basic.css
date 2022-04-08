@@ -35,11 +35,13 @@ h3 a {
   box-shadow: none;
   color: #1a1110;
 }
+
 h3 a:hover {
   color: #1a1110;
   font-weight: bold;
   box-shadow: none;
 }
+
 .entry {
   margin-bottom: 1.8em;
 }
