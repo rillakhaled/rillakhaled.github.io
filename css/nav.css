@@ -1,0 +1,149 @@
+body {
+  margin: auto 0;
+  padding: 0;
+  font-family: 'Red Hat Text', sans-serif;
+  background-color: #FFFDFA;
+  color: #1a1110;
+}
+.regular {
+  margin: auto 0;
+  font-family: 'Red Hat Text', sans-serif;
+  line-height: 1.7em;
+  color: #1a1110;
+  padding-right: 8em;
+  padding-left: 8em;
+  padding-top: 4em;
+}
+
+a {
+  text-decoration: none;
+  box-shadow: inset 0 0 0 0 #fcc11c;
+  color: #327A7A;
+  padding: 0 .25rem;
+  margin: 0 -.25rem;
+  transition: all .4s ease-in-out;
+}
+
+a:hover {
+  color: #fff;
+  box-shadow: inset 400px 0 0 0 #fcc11c;;
+}
+
+li {
+  font-family: 'Red Hat Text', sans-serif;
+  color: #1a1110;
+  text-transform: none;
+}
+time {
+    font-family: 'Red Hat Mono', monospace;
+    text-transform: uppercase;
+    font-size: 0.8em;
+}
+.tags {
+  font-family: 'Red Hat Mono', monospace;
+  text-transform: uppercase;
+  font-size: 0.8em;
+}
+.tag {
+  background-color: #fcc11c;
+  border-radius: 15px;
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
+  padding-left: 0.7em;
+  padding-right: 0.7em;
+  line-height: 2em;
+}
+
+.tag a, .tag a::before {
+  text-decoration: none;
+  background: none;
+  color: white;
+}
+
+.tag a:hover {
+  color: black;
+  transition: 0.2s;
+}
+
+figure {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+    font-family: 'Spectral', serif;
+    text-align: left;
+    font-size: 2em;
+    line-height: 1.5em;
+}
+
+/* NAV */
+.sticky {
+    align-self: flex-start;
+    top: 0;
+    width: 100%;
+}
+
+.main-nav {
+    list-style: none;
+    display: flex;
+    flex-flow: row wrap;
+    margin: 0;
+    padding: 0;
+    /* background-color: rgba(255,253,250, 0.5); */
+    -webkit-backdrop-filter: blur(12px);
+    backdrop-filter: blur(12px);
+    z-index: 999;
+    width: 100%;
+    position: fixed;
+    padding-bottom: 0.4em;
+    border-bottom: 1px #1a1110 solid;
+}
+
+.main-nav li {
+    font-family: 'Red Hat Mono', monospace;
+    text-transform: uppercase;
+    font-size: 0.8em;
+    margin-top: 1em;
+    margin-left: 1.2em;
+    margin-right: 1.2em;
+}
+
+.main-nav li .title {
+  align-self: flex-end;
+  margin-right: 1em;
+  font-weight: bold;
+}
+
+.main-nav a {
+  text-decoration: none;
+  position: relative;
+  background: none;
+  box-shadow: none;
+  color: #1a1110;
+  margin: 0;
+  padding-top: 1em;
+  padding-bottom: 0.5em;
+  padding-right: 0.3em;
+  padding-left: 0.3em;
+}
+
+.main-nav a::before {
+  content: '';
+  background-color: rgba(114, 131, 131, .75);
+  position: absolute;
+  color: white;
+  left: 0;
+  bottom: 0px;
+  width: 100%;
+  height: 0px;
+  z-index: -1;
+  transition: all .3s ease-in-out;
+}
+
+.main-nav a:hover::before {
+  color: white;
+  bottom: 0;
+  height: 100%;
+}

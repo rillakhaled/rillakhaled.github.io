@@ -94,7 +94,7 @@ h1 {
     flex-flow: row wrap;
     margin: 0;
     padding: 0;
-    background-color: rgba(255,253,250, 0.5);
+    /* background-color: rgba(255,253,250, 0.5); */
     -webkit-backdrop-filter: blur(12px);
     backdrop-filter: blur(12px);
     z-index: 1;
@@ -118,7 +118,7 @@ h1 {
   position: relative;
   background: none;
   box-shadow: none;
-  color: #ff2c0b;
+  color: #1a1110;
   margin: 0;
   padding-top: 1em;
   padding-bottom: 0.5em;
@@ -128,8 +128,9 @@ h1 {
 
 .main-nav a::before {
   content: '';
-  background-color: rgba(0, 90, 89, .75);
+  background-color: rgba(114, 131, 131, .75);
   position: absolute;
+  color: white;
   left: 0;
   bottom: 0px;
   width: 100%;
@@ -139,6 +140,7 @@ h1 {
 }
 
 .main-nav a:hover::before {
+  color: white;
   bottom: 0;
   height: 100%;
 }
