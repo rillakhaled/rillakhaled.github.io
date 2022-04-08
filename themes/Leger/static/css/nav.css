@@ -110,7 +110,7 @@ h1 {
     margin-right: 1.2em;
 }
 
-.main-nav li .title {
+.title {
   align-self: flex-end;
   margin-right: 1em;
   font-weight: bold;
