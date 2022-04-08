@@ -41,6 +41,7 @@ h3 a:hover {
   color: #1a1110;
   font-weight: bold;
   box-shadow: none;
+  transition: 0.1s;
 }
 
 .entry {
@@ -81,7 +82,8 @@ time {
 }
 .tag a:hover {
   color: black;
-  transition: 0.2s;
+  transition: 0.1s;
+  box-shadow: none;
 }
 
 h1 {
