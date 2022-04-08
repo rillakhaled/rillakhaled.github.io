@@ -1,23 +1,22 @@
 body {
   margin: 0;
-  /* background-color: #A6B07E; */
 }
+
 
 .container {
   top: 0;
   height: 100vh;
-  background-color: #DAA49A;
+  width: 100vw;
+  background-color: #f4c2c2;
   padding: 0;
   margin: 0;
-  font-size: 4em;
-  font-family: 'Red Hat Text', sans-serif;
-  line-height: normal;
+  font-size: 3em;
 }
 
 .container .sticky {
   position: sticky;
-  top: 3em;
-  width: 5em;
+  top: 5em;
+  width: 10em;
   text-align: right;
   margin: 0;
   display: block;
@@ -27,6 +26,7 @@ body {
   margin-top: 0;
   margin-bottom: 0;
   padding: 0;
+  font-weight: bold;
 }
 
 .under {
@@ -39,8 +39,8 @@ body {
 
 .container .rest {
   position: relative;
-  top: 1.5em;
-  left: 6em;
+  top: 3.8em;
+  left: 11em;
   width: auto;
   color: black;
   /* border: 1px black solid; */
@@ -48,8 +48,9 @@ body {
 }
 
 .rest p {
+  color: white;
   margin-top: 0;
-  margin-bottom: 0;
+  margin-bottom: 1em;
   padding: 0;
   /* border: 1px black solid; */
 }

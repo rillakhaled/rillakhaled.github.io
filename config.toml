@@ -21,3 +21,7 @@ theme = 'Leger'
     name = "Notes"
     url = "/note/"
     weight = 4
+  [[menu.main]]
+      name = "Sketches"
+      url = "/sketch/"
+      weight = 5

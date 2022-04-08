@@ -1,10 +1,14 @@
 {{ define "main" }}
-<div class="regular">
-<h1>{{ .Title }}</h1>
-{{ partial "metadata.html" . }}
 
-{{ .Content }}
+  {{ if (ne .Section "sketch") }}
+    <div class="regular">
+    <h1>{{ .Title }}</h1>
+    {{ partial "metadata.html" . }}
+  {{ end }}
 
+  {{ .Content }}
 
-</div>
+  {{ if (ne .Section "sketch") }}
+  </div>
+  {{ end }}
 {{ end }}
