@@ -30,6 +30,21 @@ a:hover {
   box-shadow: inset 400px 0 0 0 #A8BED8;
 }
 
+h3 a {
+  text-decoration: none;
+  box-shadow: none;
+  color: #1a1110;
+}
+h3 a:hover {
+  color: #1a1110;
+  font-weight: bold;
+  box-shadow: none;
+}
+.entry {
+  margin-bottom: 1.8em;
+}
+
+
 li {
   font-family: 'Red Hat Text', sans-serif;
   color: #1a1110;
@@ -173,7 +188,7 @@ h1 {
     padding-left: 2em;
     padding-top: 2em;
   }
-  
+
   .tag {
     background-color: #fcc11c;
     border-radius: 10px;
