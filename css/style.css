@@ -11,18 +11,17 @@ h1 {
   text-align: left;
   font-size: 2em;
   line-height: 1.5em;
-  text-transform: capitalize;
 }
 
 .main-about {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    align-items: center;
-    height: 100vh; /* looks at viewport of webpage */
-    margin-left: 10em;
-    margin-right: 10em;
-    position: relative;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* looks at viewport of webpage */
+  margin-left: 10em;
+  margin-right: 10em;
+  position: relative;
 }
 
 .main-image {
@@ -30,18 +29,18 @@ h1 {
 }
 
 .main-image > img {
-    width: 100%;
-    height: auto;
-    filter: drop-shadow(0.5em 0.5em 1em #B1AA9E);
+  width: 100%;
+  height: auto;
+  filter: drop-shadow(0.5em 0.5em 1em #B1AA9E);
 }
 
 .main-description {
-    flex: 1.5 0 400px;
-    font-size: 1.3em;
-    line-height: 1.6em;
-    text-align: left;
-    margin-left: 5em;
-    color: #1b1b1b;
+  flex: 1.5 0 400px;
+  font-size: 1.3em;
+  line-height: 1.6em;
+  text-align: left;
+  margin-left: 5em;
+  color: #1b1b1b;
 }
 
 .main description h1 {
@@ -104,8 +103,8 @@ h1 {
   }
 
   h1 {
-      text-align: left;
-      font-size: 1.5em;
+    text-align: left;
+    font-size: 1.5em;
   }
 
   #email {
@@ -135,7 +134,6 @@ h1 {
     margin-left: 3em;
     font-size: 1.1em;
     text-align: left;
-
   }
 
   #email {
