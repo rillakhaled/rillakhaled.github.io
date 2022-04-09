@@ -1,98 +1,88 @@
 body {
   margin: 0;
+  background-color: #f4c2c2;
 }
 
-
 .container {
-  top: 0;
-  height: 100vh;
   width: 100vw;
-  background-color: #f4c2c2;
-  padding: 0;
-  margin: 0;
+  display: flex;
+  flex-direction: row;
   font-size: 3em;
 }
 
-.container .sticky {
-  position: sticky;
-  top: 5em;
-  width: 10em;
-  text-align: right;
+.sticky-container {
+  top: 0;
+  height: 100vh;
+  width: 40vw;
+  padding: 0;
   margin: 0;
-  display: block;
+  /* border: 1px red solid; */
 }
 
-.sticky p {
-  margin-top: 0;
-  margin-bottom: 0;
+.regular-container {
+  top: 0;
+  height: 100vh;
+  width: 60vw;
+  padding: 0;
+  margin: 0;
+  /* border: 1px green solid; */
+}
+
+.sticky-item {
+  position: sticky;
+  top: 5em;
+  margin: 0;
+  text-align: right;
+  margin: 0;
+  /* border: 1px black solid; */
+}
+.regular-items {
+  position: relative;
+  top: 5em;
+  margin: 0;
+  padding: 0;
+  width: auto;
+  color: black;
+  text-align: left;
+  /* border: 1px black solid; */
+}
+
+.sticky-item p {
+  margin: 0;
   padding: 0;
   font-weight: bold;
+  /* border: 1px black solid; */
 }
 
 .under {
   border-bottom: 1px black solid;
+  margin: 0;
+  padding: 0;
 }
 
 .over {
     border-top: 1px black solid;
+    margin: 0;
+    padding: 0;
 }
 
-.container .rest {
-  position: relative;
-  top: 3.65em;
-  left: 11em;
-  width: auto;
-  color: black;
-  /* border: 1px black solid; */
-  text-align: left;
-}
-
-.rest p {
+.regular-items p {
   color: white;
   margin-top: 0;
   margin-bottom: 1em;
   padding: 0;
+  padding-left: 0.5em;
   /* border: 1px black solid; */
 }
 
-@media only screen and (max-width: 1300px) {
-  .container {
-    font-size: 2.5em;
-  }
-}
-
-@media only screen and (max-width: 1100px) {
+@media only screen and (max-width: 800px) {
   .container {
     font-size: 2em;
   }
 }
 
-@media only screen and (max-width: 900px) {
-  .container {
-    font-size: 1.7em;
-  }
-}
-
-@media only screen and (max-width: 700px) {
-  .container {
-    font-size: 1.5em;
-  }
-}
-
-@media only screen and (max-width: 600px) {
-  .container {
-    font-size: 1.3em;
-  }
-}
-
 @media only screen and (max-width: 500px) {
   .container {
-    font-size: 1.1em;
-  }
-}
-
-@media only screen and (max-width: 400px) {
-  .container {
-    font-size: 0.9em;
+    font-size: 1.5em;
   }
 }
