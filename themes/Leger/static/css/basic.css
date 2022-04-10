@@ -184,7 +184,7 @@ h1 {
   }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 650px) {
   .regular {
     margin: auto 0;
     font-family: 'Red Hat Text', sans-serif;

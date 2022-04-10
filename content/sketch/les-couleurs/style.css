@@ -17,7 +17,7 @@
   margin: 0;
   padding: 0;
   opacity: 0.7;
-  animation: grow 40s ease-in-out infinite alternate;
+  animation: grow 35s ease-in-out infinite alternate;
 }
 
 .couleur:hover {
