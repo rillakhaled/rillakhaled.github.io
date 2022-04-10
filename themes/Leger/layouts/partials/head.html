@@ -5,6 +5,11 @@
     {{ if (ne .Section "sketch") }}
       <link rel="stylesheet" type="text/css" href="/css/style.css">
     {{ end }}
+
+    {{ if .IsHome }}
+      <link rel="stylesheet" type="text/css" href="/css/home.css">
+    {{ end }}
+
     <link rel="stylesheet" type="text/css" href="/css/basic.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
