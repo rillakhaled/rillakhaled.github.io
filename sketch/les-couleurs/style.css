@@ -1,5 +1,3 @@
-
-
 .grid-container {
   position: relative;
   top: 0;
@@ -16,16 +14,13 @@
 .couleur {
   width: 80px;
   height: 80px;
-  /* background-color: pink; */
   margin: 0;
   padding: 0;
   opacity: 0.5;
-  /* filter: blur(5px); */
   animation: grow 40s ease-in-out infinite alternate;
 }
 
 .couleur:hover {
-  /* opacity: 1; */
   z-index: 10;
 }
 
