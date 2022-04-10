@@ -106,6 +106,33 @@
   }
 }
 
+@media only screen and (max-width: 800px) {
+
+  .main-about {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    margin-left: 1em;
+    margin-right: 1em;
+  }
+
+  .main-image {
+    flex: 0 1 550px;
+  }
+
+  .main-description {
+    margin-left: 1em;
+    flex: 1 0 600px;
+    font-size: 1.1em;
+    text-align: left;
+  }
+
+  #email {
+    height: 0.9em;
+  }
+}
 
 @media only screen and (max-width: 600px) {
   .main-about {
