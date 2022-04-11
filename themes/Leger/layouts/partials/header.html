@@ -7,7 +7,9 @@
     </a></li>
   {{ end }}
 
-  {{ if (eq .Section "sketch")}}
+  {{ if and
+    (eq .Section "sketch")
+    (eq .BundleType "leaf")}}
     <li class="navtitle">title: <span class="bold">{{ .Title }}</span></li>
   {{ end }}
 
