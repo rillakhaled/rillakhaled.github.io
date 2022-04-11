@@ -3,8 +3,8 @@
   background-color: pink;
   x: 300px;
   y: 300px;
-  width: 200px;
-  height: 200px;
+  width: 400px;
+  height: 300px;
   opacity: 0;
   z-index: 999;
   animation: haunt 10s infinite alternate;
