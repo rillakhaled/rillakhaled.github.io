@@ -2,7 +2,7 @@
 title: "(300, 300)"
 date: 2022-04-10T19:58:00-04:00
 tags: ["css", "scary story"]
-draft: true
+draft: false
 resources:
   - src: style.css
 ---
