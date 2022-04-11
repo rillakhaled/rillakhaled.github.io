@@ -1,0 +1,23 @@
+#ghost{
+  position: fixed;
+  background-color: pink;
+  x: 300px;
+  y: 300px;
+  width: 400px;
+  height: 300px;
+  opacity: 0;
+  z-index: 999;
+  animation: haunt 10s infinite alternate;
+  animation-delay: 10s;
+}
+
+#prince{
+  width: 400px;
+  height: 300px;
+  opacity: 0.5;
+}
+
+@keyframes haunt {
+  0% {opacity:0;}
+  100% {opacity:0.15;}
+}
