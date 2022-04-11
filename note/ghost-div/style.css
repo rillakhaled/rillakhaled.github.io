@@ -7,7 +7,7 @@
   opacity: 0;
   z-index: 999;
   animation: haunt 10s infinite alternate;
-  animation-delay: 10s;
+  animation-delay: 15s;
 }
 
 #prince{
