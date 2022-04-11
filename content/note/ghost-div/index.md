@@ -23,4 +23,4 @@ In 2009, Yahoo decided to shut down GeoCities and deleted all of it. Along with 
 
 But ever since then, that div now just turns up *anywhere*, especially when devs have assigned z-indexes haphazardly.
 
-Always in (300, 300). *But with a z-index of 999.*
+It always turns up at (300, 300). *But with a z-index of 999.*
