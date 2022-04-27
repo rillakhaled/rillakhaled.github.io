@@ -47,7 +47,7 @@ body {
     }
 
     #space-time {
-        width: 600px;
+        max-width: 100vw;
         height: auto;
     }
 
@@ -57,6 +57,8 @@ body {
         text-align: left;
         margin-left: 2em;
         margin-right: 2em;
+
+        padding: 1em;
     }
 }
 
@@ -72,19 +74,22 @@ body {
     }
 
     .st-img {
-        flex: 1 1 600px;
+        flex: 1 1 300px;
         height: auto;
         margin-right: 0;
         margin-left: 0;
     }
 
     #space-time {
-        max-width: 500px;
+        max-width: 100vw;
         height: auto;
     }
 
     .context {
         flex: 1 1 600px;
+
+
+        padding: 0.5em;
         margin-left: 0;
         margin-right: 0;
         font-size: 1em;
