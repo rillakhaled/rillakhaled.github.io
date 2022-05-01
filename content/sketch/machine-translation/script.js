@@ -1,8 +1,8 @@
 
-let spans = document.querySelectorAll('span');
+const wordicles = document.querySelectorAll('.syn');
 
-for(span of spans) {
-  span.addEventListener('click', function (e) {
+for(let word of wordicles) {
+  word.addEventListener('click', function (e) {
     let targetWord = e.target.innerText;
     let URL = `https://wordsapiv1.p.rapidapi.com/words/${targetWord}/synonyms`;
     const options = {
