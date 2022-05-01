@@ -1,24 +1,31 @@
-.vertical-spacer {
-  height: 15px;
-  width: 100%;
-}
-
 .translation-text {
   padding: 1.5em;
   background-color: #FEB95F;
-  /* display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-items: flex-start;
-  justify-content: flex-start; */
 }
+
 
 .syn {
   font-size: 5em;
   line-height: normal;
-  font-family: 'Roboto';
+  font-family: 'Josefin Sans', sans-serif;
   text-transform: uppercase;
   cursor: pointer;
   margin-right: 0.3em;
   color: #C2095A;
+}
+
+
+@media only screen and (max-width: 800px) {
+  .syn {
+    font-size: 2.5em;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .regular {
+    padding-top: 50px;
+  }
+  .syn {
+    font-size: 2em;
+  }
 }
