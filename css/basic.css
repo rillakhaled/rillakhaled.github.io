@@ -106,7 +106,7 @@ h1 {
   flex-flow: row wrap;
   margin: 0;
   padding: 0;
-  /* background-color: rgba(255,253,250, 0.5); */
+  background-color: rgba(255,255,255, 0.25);
   -webkit-backdrop-filter: blur(12px);
   backdrop-filter: blur(12px);
   z-index: 999;
