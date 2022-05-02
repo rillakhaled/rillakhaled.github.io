@@ -4,5 +4,5 @@ _site/
 .jekyll-metadata
 .DS_Store
 public/
-config1.js
-config2.js
+config.js
+config.js
