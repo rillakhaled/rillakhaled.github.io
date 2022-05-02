@@ -10,30 +10,29 @@ let grassFill = '#3CB371';
 let d = new Date();
 let localHour = d.getHours();
 
-const address = document.querySelector('#where');
-
-address.addEventListener('change', function (e) {
-  e.preventDefault();
-  axios.get('https://api.positionstack.com/v1/forward', {
-    params: {
-      access_key: '220d42a6d8a08281a8e8b8a0b5b7779e',
-      query: e.target.value,
-      limit: 1,
-      timezone_module: 1
-    }
-  })
-  .then(function (response) {
-    let timezone = response.data.data[0].timezone_module;
-    let utcHour = d.getUTCHours();
-    localHour = utcHour + (timezone.offset_sec/3600);
-    localHour = localHour%24;
-    console.log(localHour);
-    renderImage();
-  }).catch(err => {
-    console.log(err);
-    // do nothing.
-  });
-});
+// const address = document.querySelector('#where');
+//
+// address.addEventListener('change', function (e) {
+//   // https://api.mapbox.com as a secure alternative
+//   e.preventDefault();
+//   axios.get('http://api.positionstack.com/v1/forward', {
+//     params: {
+//       access_key: '220d42a6d8a08281a8e8b8a0b5b7779e',
+//       query: e.target.value,
+//       limit: 1,
+//       timezone_module: 1
+//     }
+//   })
+//   .then(function (response) {
+//     let timezone = response.data.data[0].timezone_module;
+//     let utcHour = d.getUTCHours();
+//     localHour = utcHour + (timezone.offset_sec/3600);
+//     localHour = localHour%24;
+//     renderImage();
+//   }).catch(err => {
+//     renderImage();
+//   });
+// });
 
 renderImage = function() {
   if (localHour >= 22) {
