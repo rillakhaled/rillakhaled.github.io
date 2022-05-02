@@ -16,7 +16,7 @@ address.addEventListener('change', function (e) {
   e.preventDefault();
   axios.get('http://api.positionstack.com/v1/forward', {
     params: {
-      access_key: config.access_key,
+      access_key: config.geo,
       query: e.target.value,
       limit: 1,
       timezone_module: 1
