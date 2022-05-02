@@ -10,7 +10,7 @@ let grassFill = '#3CB371';
 let d = new Date();
 let localHour = d.getHours();
 
-let address = document.querySelector('#where');
+const address = document.querySelector('#where');
 
 address.addEventListener('change', function (e) {
   e.preventDefault();
