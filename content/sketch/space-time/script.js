@@ -14,7 +14,7 @@ const address = document.querySelector('#where');
 
 address.addEventListener('change', function (e) {
   e.preventDefault();
-  axios.get('http://api.positionstack.com/v1/forward', {
+  axios.get('https://api.positionstack.com/v1/forward', {
     params: {
       access_key: '220d42a6d8a08281a8e8b8a0b5b7779e',
       query: e.target.value,
