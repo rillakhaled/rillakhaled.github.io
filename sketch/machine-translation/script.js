@@ -10,7 +10,7 @@ for(let word of wordicles) {
       url: URL,
       headers: {
         'X-RapidAPI-Host': 'wordsapiv1.p.rapidapi.com',
-        'X-RapidAPI-Key': config2.rapid,
+        'X-RapidAPI-Key': config.rapid,
       }
     };
     axios.request(options).then(function (response) {
