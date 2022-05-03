@@ -18,7 +18,7 @@ body {
 .location {
   padding-top: 3em;
   width: 100%;
-  padding-bottom: 10px;
+  padding-bottom: 0.4em;
 
   font-family: 'Red Hat Mono', monospace;
   text-transform: uppercase;
@@ -48,7 +48,7 @@ body {
 }
 
 .context p {
-    text-align: left;
+  text-align: left;
 }
 
 @media only screen and (max-width: 800px) {
@@ -84,9 +84,9 @@ body {
   }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 650px) {
   .container {
-    top: 20px;
+    top: 25px;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
@@ -100,7 +100,9 @@ body {
     margin-left: 0;
   }
   .location {
-    padding-top: 1em;
+    padding-top: 1.5em;
+    padding-bottom: 0.2em;
+    font-size: 0.6em;
   }
 
   #space-time {
