@@ -9,50 +9,40 @@ let grassFill = '#3CB371';
 
 let d = new Date();
 let localHour = d.getHours();
+let utcHour = d.getUTCHours();
+
 const address = document.querySelector('#where');
 
-address.addEventListener('change', function (e) {
-
-$.ajax({
-    url: 'http://api.positionstack.com/v1/forward',
-    data: {
-      access_key: '220d42a6d8a08281a8e8b8a0b5b7779e',
-      query: e.target.value,
-      limit: 1,
-      timezone_module: 1,
-    }
-  }).done(function(data) {
-    let timezone = data.data[0].timezone_module;
-    let utcHour = d.getUTCHours();
-    localHour = utcHour + (timezone.offset_sec/3600);
-    localHour = localHour%24;
+async function locationThenTime(e) {
+  e.preventDefault();
+  let response;
+  try {
+    response = await axios.get(`https://api.geoapify.com/v1/geocode/search?text=${e.target.value}&apiKey=${config.geo}`);
+  }
+  catch (error) {
+    console.log(error);
     renderImage();
-  });
-});
+  }
+  try {
+    const secondResponse = await axios.get(`https://api.bigdatacloud.net/data/timezone-by-location?latitude=${response.data.features[0].geometry.coordinates[1]}&longitude=${response.data.features[0].geometry.coordinates[0]}&utcReference=0&key=${config.time}`);
+    const utcOffset = secondResponse.data.utcOffsetSeconds;
+    localHour = utcHour + (utcOffset/3600);
+    if(localHour > 24){
+      localHour-=24;
+    }
+    else if(localHour < 0){
+      localHour+=24;
+    }
+    // console.log(localHour);
+    renderImage();
+  }
+  catch(error) {
+    console.log(error);
+    renderImage();
+  }
+}
 
-// const address = document.querySelector('#where');
-//
-// address.addEventListener('change', function (e) {
-//   // https://api.mapbox.com as a secure alternative
-//   e.preventDefault();
-//   axios.get('http://api.positionstack.com/v1/forward', {
-//     params: {
-//       access_key: '220d42a6d8a08281a8e8b8a0b5b7779e',
-//       query: e.target.value,
-//       limit: 1,
-//       timezone_module: 1
-//     }
-//   })
-//   .then(function (response) {
-//     let timezone = response.data.data[0].timezone_module;
-//     let utcHour = d.getUTCHours();
-//     localHour = utcHour + (timezone.offset_sec/3600);
-//     localHour = localHour%24;
-//     renderImage();
-//   }).catch(err => {
-//     renderImage();
-//   });
-// });
+address.addEventListener('change', locationThenTime);
 
 renderImage = function() {
   if (localHour >= 22) {
@@ -74,13 +64,15 @@ renderImage = function() {
     grassFill = '#336600';
   }
   else if(localHour >= 16) {
+    stars.hide();
+    sun.show();
     skyFill = '#FFA07A';
     sunFill = '#FF4500';
     grassFill = '#4C9900';
-    stars.hide();
   }
   else if(localHour >= 12) {
     stars.hide();
+    sun.show();
     skyFill = '#87CEEB';
     sunFill = '#FFA500';
     grassFill = '#4C9900';
