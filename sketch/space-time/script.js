@@ -44,7 +44,7 @@ async function locationThenTime(e) {
 
 address.addEventListener('change', locationThenTime);
 
-renderImage = function() {
+function renderImage() {
   if (localHour >= 22) {
     stars.show();
     sun.hide();
