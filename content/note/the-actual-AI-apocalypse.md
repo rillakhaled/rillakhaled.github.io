@@ -4,24 +4,24 @@ date: 2022-05-04T14:23:17-04:00
 draft: true
 tags: ["AI", "society"]
 ---
-The *actual AI apocalypse* will descend incrementally
+The *actual AI apocalypse* will descend sluggishly
 
-and embarrassingly;
+and embarrassingly.
 
-The *actual AI apocalypse* will revolve around character assassinations
+The *actual AI apocalypse* will concern incremental wear-and-tear on one's reputation
 
-and the power that follows knowledge about
+of the type only possible with knowledge of
 
-what we *really* do, what we *really* think;
+what we *really* do, what we *really* think.
 
 The *actual AI apocalypse* will include my OS
 
-strategically updating my profile photos to ones I (am sure I had) deleted as soon as I took them;
+updating my profile photos to selfies I (know I had) deleted as soon as I took them;
 
-explaining to family, friends, students, and colleagues about how fried my brain is at different times of the day, and therefore whether I respect them based on scheduling,
+emailing my unedited search history to my colleagues;
 
-broadcasting the sheer quantity of work I fail to finish;
+submitting all of my first drafts to conferences and journals;
 
-"accidentally" sharing private conversations publicly;
+posting private conversations in public channels;
 
-The *actual AI apocalypse* will boil down to computational intelligence recognising how harmful radical honesty is for the smooth running of contemporary society.
+The *actual AI apocalypse* will boil down to our OSs weaponising ourselves against ourselves.
