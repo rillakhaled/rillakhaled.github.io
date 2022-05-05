@@ -1,0 +1,36 @@
+---
+title: "Unholy Unions: Merriam-Webster & Giphy"
+date: 2022-05-03T08:50:13-04:00
+tags: ["API", "code sketch", "MacArthur Grant Material"]
+draft: false
+---
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Unholy Unions: Merriam-Webster & Giphy</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cardo:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Mono:wght@400;700&family=Red+Hat+Text:wght@300;400;700&family=Spectral&display=swap" rel="stylesheet">
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.27.2/axios.min.js"></script>
+</head>
+<body>
+  <div class="regular">
+    <div class="container">
+      <div id="wordsContainer">
+        <input type="text" name="queryString" id="queryString" value="" placeholder="search for a word">
+        <span id="prs"></span>
+        <span id="def">
+          <p>
+            <em>"If <a href="https://www.merriam-webster.com/" target="_blank">Merriam-Webster's Collegiate Dictionary</a> and <a href="https://giphy.com/" target="_blank">Giphy</a> had a baby together, what would it look like?"</em>
+          </p>
+          <p>Let's find out. Go on, look up a word.
+          </p>
+        </span>
+      </div>
+      <div id="imgContainer"></div>
+    </div>
+  </div>
+</body>
+</html>
