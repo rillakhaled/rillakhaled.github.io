@@ -191,7 +191,7 @@ h1 {
 @media only screen and (max-width: 650px) {
   .regular {
     margin: auto 0;
-    font-family: 'Red Hat Text', sans-serif;
+    font-family: 'Spectral', serif;
     color: #1a1110;
     padding-right: 2em;
     padding-left: 2em;
@@ -199,7 +199,7 @@ h1 {
   }
 
   .tag {
-    background-color: #fcc11c;
+    background-color: rgb(255,230,109);
     border-radius: 10px;
     padding-top: 0.1em;
     padding-bottom: 0.1em;
