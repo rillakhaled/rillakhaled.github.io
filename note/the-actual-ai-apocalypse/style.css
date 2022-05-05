@@ -79,3 +79,14 @@ img {
     margin-right: 1em;
   }
 }
+@media only screen and (max-width: 650px) {
+  body {
+    font-family: 'Cardo', serif;
+    font-size: 0.75em;
+  }
+  .container {
+    margin-top: 1.5em;
+    margin-left: 1em;
+    margin-right: 1em;
+  }
+}
