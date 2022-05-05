@@ -1,0 +1,81 @@
+.clause {
+  margin-bottom: 2em;
+}
+
+.pov-rilla {
+  font-family: 'Spectral', serif;
+  font-size: 1.2em;
+  line-height: normal;
+  padding: 0;
+  margin: 0;
+}
+.w200 {
+  font-weight: 200;
+}
+.w300 {
+  font-weight: 300;
+}
+.w400 {
+  font-weight: 400;
+}
+.w500 {
+  font-weight: 500;
+}
+.w600 {
+  font-weight: 600;
+}
+.w700 {
+  font-weight: 700;
+}
+.w800 {
+  font-weight: 800;
+}
+
+.pov-os {
+  font-family: 'Oxygen Mono', monospace;
+  font-size: 1em;
+  line-height: normal;
+  margin-left: 3em;
+}
+
+.container {
+  /* border: black 1px solid; */
+  margin-top: 1em;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: middle;
+  justify-content: middle;
+}
+
+.text {
+  /* border: black 1px solid; */
+  margin-right: 1em;
+  flex: 1.5 0 400px;
+}
+
+.image {
+  /* border: black 1px solid; */
+  flex: 1 0 400px;
+}
+
+img {
+  filter: drop-shadow(0.5em 0.5em 1em #B1AA9E);
+  max-width: 100%;
+  height: auto;
+}
+.uline {
+  /* text-decoration: underline; */
+}
+
+@media only screen and (max-width: 800px) {
+  body {
+    font-family: 'Cardo', serif;
+    font-size: 0.9em;
+  }
+  .container {
+    margin-top: 1.5em;
+    margin-left: 1em;
+    margin-right: 1em;
+  }
+}
