@@ -4,6 +4,12 @@
   margin-right: 1.5em;
 }
 
+.explanation {
+  font-family: 'Red Hat Mono', serif;
+  font-size: 1em;
+  display: block;
+}
+
 input[type=text] {
   padding-top: 0.25em;
   padding-bottom: 0.1em;
