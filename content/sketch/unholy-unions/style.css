@@ -19,13 +19,13 @@ input[type=text] {
 
 #prs {
   display: inline;
+  padding-right: 5px;
   font-size: 1.5em;
   font-family: 'Cardo', serif;
   align-items: baseline;
 }
 #def {
   display: inline;
-  padding-left: 5px;
   font-family: 'Cardo', serif;
   font-size: 2em;
   line-height: normal;
@@ -84,5 +84,8 @@ img {
   body {
     font-family: 'Cardo', serif;
     font-size: 0.6em;
+  }
+  input[type=text] {
+    width: 100%;
   }
 }
