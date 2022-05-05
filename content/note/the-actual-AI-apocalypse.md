@@ -16,12 +16,12 @@ what we *really* do, what we *really* think.
 
 The *actual AI apocalypse* will include my OS
 
-updating my profile photos to selfies I (know I had) deleted as soon as I took them;
+     updating my profile photos to selfies I (know I had) deleted as soon as I took them;
 
-emailing my unedited search history to my colleagues;
+     emailing my unedited search history to my colleagues;
 
-submitting all of my first drafts to conferences and journals;
+     submitting all of my first drafts to conferences and journals;
 
-posting private conversations in public channels;
+     posting private conversations in public channels;
 
-The *actual AI apocalypse* will boil down to our OSs weaponising ourselves against ourselves.
+The *actual AI apocalypse* will be our OSs weaponising ourselves against ourselves.
