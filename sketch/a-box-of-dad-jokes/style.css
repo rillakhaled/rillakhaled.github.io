@@ -50,19 +50,18 @@ h2 {
   margin-top: 0.5em;
   margin-bottom: 0.5em;
 }
-h4 {
-  font-size: 0.8em;
-  font-family: 'Spectral', serif;
-  text-align: center;
-}
 
 @media only screen and (max-width: 800px) {
-  body {
-    font-family: 'Cardo', serif;
-    font-size: 0.5em;
-  }
+
   #opener {
     padding-top: 2em;
+  }
+  h2 {
+    font-size: 1.8em;
+    font-family: 'Spectral', serif;
+    text-align: center;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
   }
   .dad-image {
     width: 80px;
