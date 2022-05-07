@@ -104,19 +104,18 @@ h1 {
 }
 
 .main-nav {
-  list-style: none;
   display: flex;
   flex-flow: row wrap;
   margin: 0;
   padding: 0;
   background-color: rgba(255,255,255, 0.25);
-  -webkit-backdrop-filter: blur(12px);
   backdrop-filter: blur(12px);
   z-index: 999;
   width: 100%;
   position: fixed;
   padding-bottom: 0.4em;
   border-bottom: 1px #1a1110 solid;
+  list-style: none;
 }
 
 .main-nav li {
