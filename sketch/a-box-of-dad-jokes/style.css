@@ -1,3 +1,10 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
 .grid-container {
   position: relative;
   margin-left: 6em;
@@ -43,12 +50,12 @@ h2 {
   margin-top: 0.5em;
   margin-bottom: 0.5em;
 }
-
 h4 {
   font-size: 0.8em;
   font-family: 'Spectral', serif;
   text-align: center;
 }
+
 @media only screen and (max-width: 800px) {
   body {
     font-family: 'Cardo', serif;
@@ -65,8 +72,6 @@ h4 {
   }
   .grid-container {
     position: relative;
-    top: 0;
-    left: 0;
     margin-left: 2em;
     margin-right: 2em;
     padding: 0;
@@ -80,5 +85,10 @@ h4 {
     font-family: 'Red Hat Text', sans-serif;
     font-size: 7px;
     padding: 4px;
+  }
+  .instruction {
+    font-size: 1.3em;
+    font-family: 'Spectral', serif;
+    text-align: center;
   }
 }
