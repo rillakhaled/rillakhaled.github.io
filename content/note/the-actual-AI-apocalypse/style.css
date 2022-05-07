@@ -70,7 +70,7 @@ img {
 
 @media only screen and (max-width: 800px) {
   body {
-    font-family: 'Cardo', serif;
+    font-family: 'Spectral', serif;
     font-size: 0.9em;
   }
   .container {
@@ -81,7 +81,7 @@ img {
 }
 @media only screen and (max-width: 650px) {
   body {
-    font-family: 'Cardo', serif;
+    font-family: 'Spectral', serif;
     font-size: 0.75em;
   }
   .container {
