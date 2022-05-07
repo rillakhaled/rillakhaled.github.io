@@ -1,0 +1,84 @@
+.grid-container {
+  position: relative;
+  margin-left: 6em;
+  margin-right: 6em;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+  align-items: stretch;
+  justify-items: stretch;
+  grid-gap: 4px;
+}
+
+.joke {
+  font-family: 'Red Hat Text', sans-serif;
+  font-size: 9px;
+  padding: 8px;
+}
+
+.dad-image {
+  width: 120px;
+  height: auto;
+}
+
+.dadElement {
+  width: 120px;
+  height: 120px;
+  border-radius: 20px;
+  margin: 0;
+  padding: 0;
+  opacity: 1;
+  border: 1px black solid;
+  filter: drop-shadow(5px 5px 2px #E3DAD5);
+}
+
+#opener {
+  padding-top: 1.5em;
+}
+
+h2 {
+  font-size: 3em;
+  font-family: 'Spectral', serif;
+  text-align: center;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+h3 {
+  font-size: 0.8em;
+  font-family: 'Spectral', serif;
+  text-align: center;
+}
+@media only screen and (max-width: 800px) {
+  body {
+    font-family: 'Cardo', serif;
+    font-size: 0.5em;
+  }
+  .dad-image {
+    width: 80px;
+    height: auto;
+  }
+  .dadElement {
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+  }
+  .grid-container {
+    position: relative;
+    top: 0;
+    left: 0;
+    margin-left: 2em;
+    margin-right: 2em;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
+    align-items: stretch;
+    justify-items: stretch;
+    grid-gap: 3px;
+  }
+  .joke {
+    font-family: 'Red Hat Text', sans-serif;
+    font-size: 7px;
+    padding: 4px;
+  }
+}
