@@ -52,7 +52,7 @@ h2 {
 }
 
 .instructions {
-  font-size: 0.6em;
+  font-size: 0.75em;
   font-family: 'Spectral', serif;
   text-align: center;
   padding: 1em;
@@ -98,7 +98,7 @@ h2 {
     padding: 4px;
   }
   .instructions {
-    font-size: 0.7em;
+    font-size: 0.65em;
     font-family: 'Spectral', serif;
     text-align: center;
     padding: 1em;
