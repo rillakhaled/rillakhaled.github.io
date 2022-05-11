@@ -1,0 +1,146 @@
+body {
+  font-size: 1em;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 4em;
+}
+
+#opener {
+  font-family: 'Radio Canada', sans-serif;
+  font-size: 3em;
+  text-align: left;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  display: inline;
+}
+
+p {
+  align-self: flex-start;
+  font-size: 1.3em;
+  font-family: 'Radio Canada', sans-serif;
+  display: inline;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+button {
+  display: inline;
+  border: none;
+  background-color: white;
+  color: black;
+  text-transform: uppercase;
+  line-height: 1;
+  font-size: 0.7em;
+  font-family: 'Radio Canada', sans-serif;
+  box-shadow: 10px 5px 7px gray;
+  padding-top: 0.8em;
+  padding-bottom: 0.8em;
+  padding-left: 1.2em;
+  padding-right: 1.2em;
+  margin-top: 0.5em;
+}
+
+input {
+  display: inline;
+  border: none;
+  background-color: white;
+  color: black;
+  text-transform: uppercase;
+  line-height: 1;
+  font-size: 0.7em;
+  font-family: 'Radio Canada', sans-serif;
+  box-shadow: 10px 5px 7px gray;
+  width: 75%;
+  padding-top: 0.7em;
+  padding-bottom: 0.7em;
+  padding-left: 1.2em;
+  padding-right: 1.2em;
+  margin-right: 1.5em;
+}
+
+#list, #list-minus-one, #list-minus-two {
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+  align-self: flex-start;
+  font-size: 1.3em;
+  font-family: 'Radio Canada', sans-serif;
+}
+
+ol {
+  list-style: none;
+  counter-reset: magicstep;
+  padding-inline-start: 20px;
+}
+
+ol li {
+  counter-increment: magicstep;
+  margin-bottom: 5px;
+  font-size: 1.2em;
+  font-family: 'Radio Canada', sans-serif;
+}
+
+ol li:before{
+  content: counter(magicstep);
+  background: #EE4B3E;
+  border-radius: 50%;
+  color: white;
+  margin-right: 0.8rem;
+  width: 2rem;
+  height: 2rem;
+  padding-top: 0.4rem;
+  text-align: center;
+  display: inline-block;
+  box-sizing: border-box;
+}
+
+.taskInput {
+  align-self: flex-start;
+  font-size: 1.3em;
+  font-family: 'Radio Canada', sans-serif;
+  width: 100%;
+}
+
+div.circle {
+  --s:400px;  /*Size of the circle */
+  --p:30px;  /* padding */
+
+  height: var(--s);
+  width:  var(--s);
+  border-radius: 50%;
+  font-size: 1.3em;
+  font-family: 'Radio Canada', sans-serif;
+  background-color: black;
+  color: white;
+  margin: 2em;
+}
+
+.circle i,
+.circle::before {
+  content: '';
+  float: left;
+  height: 100%;
+  width: 50%;
+  shape-outside: radial-gradient(farthest-side at right, transparent calc(100% - var(--p)), #fff 0);
+}
+.circle i {
+  float: right;
+  shape-outside: radial-gradient(farthest-side at left,  transparent calc(100% - var(--p)), #fff 0);
+}
+
+
+
+@media only screen and (max-width: 800px) {
+
+  body {
+    font-size: 0.8em;
+  }
+
+  input {
+    width: 400px;
+  }
+}
