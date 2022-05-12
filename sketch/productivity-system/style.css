@@ -85,9 +85,9 @@ ol li {
 
 ol li:before{
   content: counter(magicstep);
-  background: #EE4B3E;
+  color: rgba(245,245,245, 0.5);
+  background: #FF6B6B;
   border-radius: 50%;
-  /* border: #EE4B3E 2px solid; */
   color: white;
   margin-right: 0.8rem;
   width: 2rem;
