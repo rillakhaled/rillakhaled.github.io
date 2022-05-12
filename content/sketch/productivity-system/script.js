@@ -113,13 +113,9 @@ generateShorterList = function(subtract) {
   let currentListString = `<ul `;
 
   if(subtract === 1) {
-    listMinusOne = document.createElement("ul");
-    listMinusOne.setAttribute("id", "list-minus-one");
     currentListString += `id="list-minus-one">`;
   }
   else {
-    listMinusTwo = document.createElement("ul");
-    listMinusTwo.setAttribute("id", "list-minus-two");
     currentListString += `id="list-minus-two">`;
   }
   for(let i = 0; i < newNumberItems; i++) {
