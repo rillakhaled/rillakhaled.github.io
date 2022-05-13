@@ -88,7 +88,7 @@ btnDone.addEventListener("click", function(e) {
   }
 })
 
-retrieveNextItemWords = function(words, itemLength) {
+retrieveNextItemWords = function(words, itemLength, lastBulletPointStatus) {
   let nextItem = "";
   for(let itemI = 0; itemI < itemLength; itemI++) {
     if(words.length > 0) {
@@ -97,6 +97,10 @@ retrieveNextItemWords = function(words, itemLength) {
     else {
       break;
     }
+  }
+  if(lastBulletPointStatus && words.length > 0) {
+    // check if there is any remaining words
+    nextItem += words;
   }
   nextItem = nextItem.trim();
   return nextItem;
@@ -119,8 +123,12 @@ generateShorterList = function(subtract) {
     currentListString += `id="list-minus-two">`;
   }
   for(let i = 0; i < newNumberItems; i++) {
+    let isLastBulletPoint = false;
+    if(i == newNumberItems-1) {
+      isLastBulletPoint = true;
+    }
     currentListString += '<li>';
-    currentListString += retrieveNextItemWords(megaWordsArray, numWordsPerItem);
+    currentListString += retrieveNextItemWords(megaWordsArray, numWordsPerItem, isLastBulletPoint);
     currentListString += '</li>';
   }
   currentListString += `</ul>`;
