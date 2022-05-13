@@ -108,7 +108,7 @@ generateShorterList = function(subtract) {
 
   let newNumberItems = worriesLength-subtract;
   let megaWordsArray = megaWorry.split(' ');
-  let numWordsPerItem = Math.ceil(megaWordsArray.length/newNumberItems);
+  let numWordsPerItem = Math.floor(megaWordsArray.length/newNumberItems);
 
   let currentListString = `<ul `;
 
