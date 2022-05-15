@@ -2,7 +2,7 @@
 title: "That Sinking Feeling"
 date: 2022-04-06
 draft: false
-tags: ["css", "hugo", "learning", "code sketch"]
+tags: ["css", "hugo", "learning"]
 resources:
   - src: style.css
   - src: hunk.png
