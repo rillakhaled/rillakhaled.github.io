@@ -43,10 +43,21 @@ p{
   margin-bottom: 1em;
   transition: all 0.25s ease-out;
 }
-.redacted:hover{
+/* .redacted:hover {
   color: black;
   background-color: #F7F3F1;
+} */
+.redacted-hover {
+  color: black;
+  background-color: #F7F3F1;
+  margin-right: 0;
+  margin-left: 0;
+  padding-left: 0.15em;
+  padding-right: 0.15em;
+  margin-bottom: 1em;
+  transition: all 0.25s ease-out;
 }
+
 
 .instruction {
   background-color: black;
@@ -57,11 +68,11 @@ p{
   margin-bottom: 1em;
   transition: all 0.25s ease-out;
 }
-
+/*
 .instruction:hover {
   color: red;
   background-color: #F7F3F1;
-}
+} */
 
 .read-instruction {
   background-color: #F7F3F1;
@@ -80,7 +91,6 @@ p{
     font-size: 0.7em;
   }
 }
-
 
 @media only screen and (max-width: 600px) {
   body {
