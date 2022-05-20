@@ -36,8 +36,8 @@ p{
 .redacted {
   background-color: black;
   color: black;
-  margin-right: 0;
-  margin-left: 0;
+  margin-right: -0.05em;
+  margin-left: -0.05em;
   padding-left: 0.15em;
   padding-right: 0.15em;
   margin-bottom: 1em;
@@ -50,8 +50,8 @@ p{
 .redacted-hover {
   color: black;
   background-color: #F7F3F1;
-  margin-right: 0;
-  margin-left: 0;
+  margin-right: -0.05em;
+  margin-left: -0.05em;
   padding-left: 0.15em;
   padding-right: 0.15em;
   margin-bottom: 1em;
