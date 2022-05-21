@@ -56,17 +56,13 @@ p{
 
 .instruction {
   background-color: black;
+  color: black;
   margin: -0.05em;
   padding-left: 0.15em;
   padding-right: 0.15em;
   margin-bottom: 1em;
   transition: all 0.25s ease-out;
 }
-/*
-.instruction:hover {
-  color: red;
-  background-color: #F7F3F1;
-} */
 
 .read-instruction {
   background-color: #F7F3F1;
