@@ -36,22 +36,17 @@ p{
 .redacted {
   background-color: black;
   color: black;
-  margin-right: -0.05em;
-  margin-left: -0.05em;
+  margin: -0.05em;
   padding-left: 0.15em;
   padding-right: 0.15em;
   margin-bottom: 1em;
   transition: all 0.25s ease-out;
 }
-/* .redacted:hover {
-  color: black;
-  background-color: #F7F3F1;
-} */
+
 .redacted-hover {
   color: black;
   background-color: #F7F3F1;
-  margin-right: -0.05em;
-  margin-left: -0.05em;
+  margin: -0.05em;
   padding-left: 0.15em;
   padding-right: 0.15em;
   margin-bottom: 1em;
@@ -61,8 +56,7 @@ p{
 
 .instruction {
   background-color: black;
-  margin-right: 0;
-  margin-left: 0;
+  margin: -0.05em;
   padding-left: 0.15em;
   padding-right: 0.15em;
   margin-bottom: 1em;
@@ -78,8 +72,7 @@ p{
   background-color: #F7F3F1;
   font-weight: bold;
   color: red;
-  margin-right: 0;
-  margin-left: 0;
+  margin: -0.05em;
   padding-left: 0.15em;
   padding-right: 0.15em;
   margin-bottom: 1em;
