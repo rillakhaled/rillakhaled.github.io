@@ -37,7 +37,6 @@ function tick() {
   if(playing) {
     frameCount++;
     if(frameCount%10 === 0) {
-      console.log("INSIDE");
       let drops = document.querySelectorAll(".drop");
       for(d of drops) {
         d.cell.advance();
@@ -69,11 +68,7 @@ for(let i = 1; i <= 6; i++) {
     playing = false;
   })
   dropDiv.addEventListener("touchstart", function(){
-    let drops = document.querySelectorAll(".drop");
-    for(d of drops) {
-      d.cell.advance();
-      let d_image = d.querySelector(".dropImage");
-      d_image.src = d.cell.getFrame();
-    }
-  })  
+    playing = !playing
+    window.requestAnimationFrame(tick);
+  })
 }
