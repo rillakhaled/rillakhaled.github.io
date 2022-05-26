@@ -68,4 +68,12 @@ for(let i = 1; i <= 6; i++) {
   dropDiv.addEventListener("mouseleave", function(){
     playing = false;
   })
+  dropDiv.addEventListener("touchstart", function(){
+    let drops = document.querySelectorAll(".drop");
+    for(d of drops) {
+      d.cell.advance();
+      let d_image = d.querySelector(".dropImage");
+      d_image.src = d.cell.getFrame();
+    }
+  })  
 }
