@@ -1,0 +1,112 @@
+body {
+  background-image: url("old_paper.jpg");
+  font-size: 1em;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+h2 {
+  margin-top: 2em;
+  font-size: 3em;
+  position: relative;
+  display: inline-block;
+  font-family: 'Cormorant Garamond', serif;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+}
+
+h2:after {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("carpet.jpg");
+  mix-blend-mode: lighten;
+}
+
+.grid-container {
+  position: relative;
+  margin-left: 10em;
+  margin-right: 10em;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(255px, 1fr));
+  justify-items: center;
+  align-items: center;
+  grid-gap: 50px;
+}
+
+p {
+  margin: 3em;
+  margin-left: 10em;
+  margin-right: 10em;
+}
+
+.drop {
+  width: auto;
+  height: auto;
+}
+
+.dropImage {
+  width: 255px;
+  height: 187px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .grid-container {
+    position: relative;
+    margin-left: 5em;
+    margin-right: 5em;
+    grid-gap: 20px;
+  }
+  p {
+    margin: 3em;
+    margin-left: 5em;
+    margin-right: 5em;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  body {
+    font-size: 0.7em;
+  }
+  p {
+    font-size: 1.3em;
+    margin: 2em;
+  }
+  .grid-container {
+    position: relative;
+    margin-left: 3em;
+    margin-right: 3em;
+    grid-gap: 20px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    font-size: 0.5em;
+  }
+
+  p {
+    font-size: 1.5em;
+    margin: 2em;
+  }
+  .dropImage {
+    width: 168px;
+    height: 123px;
+  }
+  .grid-container {
+    position: relative;
+    margin-left: 3em;
+    margin-right: 3em;
+    grid-template-columns: repeat(auto-fill, minmax(168px, 1fr));
+    grid-gap: 20px;
+  }
+}
