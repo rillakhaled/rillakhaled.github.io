@@ -68,7 +68,11 @@ for(let i = 1; i <= 6; i++) {
     playing = false;
   })
   dropDiv.addEventListener("touchstart", function(){
-    playing = !playing
+    playing = true;
+    frameCount = 0;
     window.requestAnimationFrame(tick);
+  })
+  dropDiv.addEventListener("touchend", function(){
+    playing = false;
   })
 }
