@@ -1,0 +1,142 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-color: #FFC857;
+  border: none;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  background-color: #FFC857;
+}
+
+.potatoes {
+  flex: 1 0 400px;
+  background-color: #FFC857;
+  margin: 0;
+  padding: 2em;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+svg {
+  width: 400px;
+  height: auto;
+}
+
+.spies {
+  width: 400px;
+}
+
+.advice {
+  flex: 1 0 400px;
+  padding: 2em;
+  background-color: #178A6D;
+  color: white;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+h2 {
+  text-transform: uppercase;
+  font-family: 'Poppins', sans-serif;
+  padding: 1em;
+  margin: 0;
+  font-size: 3em;
+  text-align: center;
+}
+
+p {
+  font-family: 'Poppins', sans-serif;
+  font-size: 0.8em;
+  color: white;
+}
+
+.spacer {
+  width: 100%;
+  height: 0;
+}
+
+@media only screen and (max-width: 1200px) {
+
+  .container {
+    background-color: #FFC857;
+  }
+
+  .potatoes {
+    flex: 1 0 320px;
+    background-color: #FFC857;
+    margin: 0;
+    padding: 2em;
+    height: 100vh;
+  }
+  .spies {
+    width: 320px;
+  }
+  svg {
+    width: 320px;
+    height: auto;
+  }
+  .advice {
+    flex: 1 0 250px;
+    padding: 2em;
+    background-color: #178A6D;
+    width: 100%;
+    height: 100vh;
+  }
+}
+@media only screen and (max-width: 800px) {
+  body {
+    font-size: 0.8em;
+  }
+  .container {
+    align-content: flex-start;
+    background-color: #178A6D;
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+  }
+  .potatoes {
+    flex: 1 0 400px;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding-top: 3em;
+    padding-bottom: 3em;
+  }
+  .spies {
+    width: 400px;
+  }
+  svg {
+    width: 400px;
+    height: auto;
+  }
+  .advice {
+    flex: 1 0 400px;
+    margin: 0;
+    padding: 0;
+    background-color: #178A6D;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+  }
+  h2 {
+    font-size: 3em;
+  }
+}
