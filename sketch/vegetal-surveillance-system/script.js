@@ -43,6 +43,7 @@ function tick(e){
     for(e of p1_eyes) {
       blink(e);
     }
+    p1_rate = Math.floor(Math.random()*1000);
   }
   if((frame%p2_rate)===0) {
     is_blinking = true;
@@ -50,6 +51,7 @@ function tick(e){
     for(e of p2_eyes) {
       blink(e);
     }
+    p2_rate = Math.floor(Math.random()*1000);
   }
   window.requestAnimationFrame(tick);
 }
