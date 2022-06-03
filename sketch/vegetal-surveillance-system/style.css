@@ -18,7 +18,7 @@ body{
 }
 
 .potatoes {
-  flex: 1 0 400px;
+  flex: 2 0 400px;
   background-color: #FFC857;
   margin: 0;
   padding: 2em;
@@ -77,7 +77,7 @@ p {
   }
 
   .potatoes {
-    flex: 1 0 320px;
+    flex: 2 0 320px;
     background-color: #FFC857;
     margin: 0;
     padding: 2em;
@@ -110,7 +110,8 @@ p {
     height: 100vh;
   }
   .potatoes {
-    flex: 1 0 400px;
+    flex: 1.5 0 350px;
+    flex: 1 0 auto;
     width: 100%;
     height: auto;
     margin: 0;
@@ -118,10 +119,10 @@ p {
     padding-bottom: 3em;
   }
   .spies {
-    width: 400px;
+    width: 350px;
   }
   svg {
-    width: 400px;
+    width: 350px;
     height: auto;
   }
   .advice {
